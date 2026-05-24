@@ -1,3 +1,4 @@
+process.env.FFMPEG_PATH = require("ffmpeg-static");
 const { Client, GatewayIntentBits, Collection, ActivityType } = require("discord.js");
 const { DisTube } = require("distube");
 const { YtDlpPlugin } = require("@distube/yt-dlp");
