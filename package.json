@@ -1,0 +1,18 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord music bot using DisTube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@distube/yt-dlp": "^2.0.0",
+    "discord.js": "^14.0.0",
+    "distube": "^5.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
